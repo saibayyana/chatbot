@@ -25,7 +25,6 @@ mvn -f starwars-chatbot/pom.xml clean package install
 
 ARN for Alexa function: `aws lambda get-function --function-name StarWarsChatbot --region us-east-1 | jq .Configuration.FunctionArn`
 
-NOTE: Getting Started with Alexa skill using Java is explained at https://github.com/arun-gupta/alexa-skill-java.
 
 == JSON Document
 
